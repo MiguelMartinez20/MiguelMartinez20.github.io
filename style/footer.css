@@ -1,0 +1,32 @@
+footer{
+    background: brown;
+    min-width: 265px;;
+}
+
+footer a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    
+}
+
+footer a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+
+footer h3{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#footer_up{
+    padding: 10px;
+}
+
+#footer_down{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,116 @@
+header{
+    width: 100%;
+    background: brown;    
+    height: 50px;
+    margin: 0;
+    position: fixed;
+    top:0;
+    left:0;
+    font-family: calibri;
+    z-index: 100;
+}
+
+h1{
+    float: left;
+    margin: 0;
+    padding: 3px;
+    color: white;
+    font-family: calibri;
+    z-index: 2;
+    transform: translateY(-18px);
+}
+
+header h1 a{
+    text-decoration: none;
+    color: white;
+    font-family: calibri;
+}
+
+header h1 a:hover{
+    text-decoration: none;    
+    color: white;
+}
+
+#btn-menu{
+    display: none;
+}
+
+header label{
+    position: absolute;
+    display: none;
+    width: 50px;
+    height: 50px; 
+    padding: 5px;
+    padding-left: 12px;
+    font-size: 28px;
+    color: white;
+    font-family: calibri;  
+}
+
+header label:hover{
+    cursor: pointer;
+    background: rgb(247, 108, 108);
+}
+
+.menu{
+    transition: all 0.5s;
+    
+}
+
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu li:hover{
+    cursor: pointer;
+    background:  rgb(247, 108, 108);;
+}
+
+@media (max-width: 768px){
+
+    h1{
+        float: right;
+        padding: 2px;
+        padding-right: 10px;
+    }
+
+    header label{
+        display: block;
+    }
+
+    .menu{
+        position: absolute;
+        background: brown;
+        width: 100%;
+        margin-right: -100%;
+        transform: translateX(-100%) translateY(50px);
+        
+    }
+
+    .menu ul{
+        flex-direction: column;
+    }
+
+    .menu li{
+        border-top: 1px solid white;
+    }
+
+    #btn-menu:checked ~ .menu{
+        transform: translateX(0%) translateY(50px);
+
+    }
+
+  
+}

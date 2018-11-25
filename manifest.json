@@ -1,0 +1,13 @@
+{
+    "name": "Mis Perris",
+    "short_name": "Mis Perris",
+    "icons": [{
+      "src": "img/icono.png",
+        "sizes": "225x225",
+        "type": "image/png"
+      }],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#FFE4C6",
+    "theme_color": "#FFE4C6"
+  }

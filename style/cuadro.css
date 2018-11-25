@@ -1,0 +1,51 @@
+#blog .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    background: brown;
+
+}
+
+#blog article{
+    margin: 15px;
+    background: chocolate;
+    border-radius: 10px;
+}
+
+#blog article:hover{
+    background: rgba(210, 105, 30, 0.418);
+}
+
+#blog img{
+    width: 99%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+    justify-content: center;
+}
+
+
+#blog article a{
+    text-align: center;
+    max-width: 400px;
+    text-decoration: none;
+    color: white;
+}
+
+#blog article a:hover{
+    color: yellow;
+}
+
+#blog article p{
+    text-align: center;
+    max-width: 400px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+
+
+
+
+
