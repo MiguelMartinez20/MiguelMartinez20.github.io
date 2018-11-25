@@ -2,6 +2,18 @@
     "name": "Mis Perris",
     "short_name": "Mis Perris",
     "icons": [{
+      "src": "img/icono-125x125.png",
+        "sizes": "125x125",
+        "type": "image/png"
+      },{
+        "src": "img/icono-152x152.png",
+          "sizes": "152x152",
+          "type": "image/png"
+      },{
+        "src": "img/icono-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+      },{
       "src": "img/icono.png",
         "sizes": "225x225",
         "type": "image/png"
