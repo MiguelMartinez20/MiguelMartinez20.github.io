@@ -1,4 +1,4 @@
-var cacheName = "perris-v2";
+var cacheName = "perris-v3";
 var filesToCache = [
     "/",
     "/index.html",
