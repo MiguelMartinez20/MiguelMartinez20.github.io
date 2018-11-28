@@ -3,6 +3,8 @@ var filesToCache = [
     "/",
     "/index.html",
     "/gallery.html",
+    "/form.html",
+    "/Sesion.html",
     "/js/app.js",
     "/style/carrusel.css",
     "/style/cuadro.css",
