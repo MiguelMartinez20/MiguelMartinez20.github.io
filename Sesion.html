@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mis Perris</title>
+    <link rel="icon" href="img/icono.png">
+    <link rel="stylesheet" href="style/form.css">
+    <link rel="stylesheet" href="style/menu.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/mainForm.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+    <header>
+        <div role="banner" class="contenedor">
+            <h1 role="heading"><a role="link" href="index.html">&#128054; Mis Perris</a> </h1>
+            <input role="checkbox" type="checkbox" id="btn-menu"> 
+            <label role="button" for="btn-menu"><b>&#9776;</b></label>    
+            
+            <nav role="menu" class="menu">
+                <ul>
+                    <li role="menuitem"><b><a role="link" href="index.html">Inicio</a></b></li>
+                    <li role="menuitem"><b><a role="link" href="gallery.html">Adopciones</a></b></li>
+                    <li role="menuitem"><b><a role="link" href="#">Donaciones</a> </b></li>
+                    <li role="menuitem"><b><a role="link" href="form.html">Registrarme</a> </b></li>
+                    <li role="menuitem"><b><a role="link" href="Sesion.html">Iniciar Sesion</a> </b></li>
+                </ul>        
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+
+        <form role="form" class="formulario"  action="#">
+            <div id="cajagrande">
+                <div role="landmark" class="caja">
+                    <h2 role="heading" id="titulo">Iniciar Sesion</h2>
+                    <br>
+                    <label role="button" for="txtName" id="name">Nombre Usuario:</label>
+                    <input role="textbox" type="text" id="txtName" maxlength="40" minlength="3" placeholder="Ingrese aqui sus Nombre Usuario" required>
+                    <br>
+                    <span role="alert" id="validacionName"></span>
+                    <br>
+                    <label role="button" for="txtPassword" id="lastname">Contraseña:</label>
+                    <input role="textbox" type="text" id="txtPassword" maxlength="40" minlength="3" placeholder="Ingrese aqui su Contraseña" required>
+                    <br>
+                    <br>
+                    <button role="button">Iniciar Sesion</button>
+                    <br>
+                    <br>
+             </div>
+            </div>
+        </form>
+    
+    </main>
+    
+    <footer>
+        <h3 role="heading" id="footer_up">Contacto</h3>
+        <a role="link" href="+569 5678 4512">+569 5678 4512</a>
+        <h3 role="heading">Correo Electronico</h3>
+        <a role="link" href="MisperrisCompanion@Gmail.com">MisperrisCompanion@Gmail.com</a>
+        <h3 role="heading">Redes Sociales</h3>
+        <a role="link" href="https://www.instagram.com/?hl=es-la">Mis_Perris_Oficial &#128247; Instagram</a>
+        <br>
+        <a role="link" href="https://www.facebook.com/" id="footer_down">Fanpage Facebook &#128077;</a>
+        <p style="color: white; font-size: 20px; padding-left: 10px; ">Todos los derechos Reservados &#169;</p>
+    </footer>  
+    <script src="JavaScript/form.js"> </script> 
+</body>
+</html>
