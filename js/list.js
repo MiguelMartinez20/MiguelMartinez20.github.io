@@ -1,6 +1,6 @@
 var xhttp = new XMLHttpRequest();
 
-xhttp.open("GET", "http://liftup.pythonanywhere.com/forma/?format=json", true);
+xhttp.open("GET", "https://liftup.pythonanywhere.com/forma/?format=json", true);
 xhttp.send();
 
 xhttp.onload = function(){

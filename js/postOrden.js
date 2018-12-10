@@ -7,7 +7,7 @@ formulario.addEventListener('submit', function(e){
 
     console.log(datos.get('horainicio'))
 
-    fetch('http://liftup.pythonanywhere.com/forma/', {
+    fetch('https://liftup.pythonanywhere.com/forma/', {
         method : 'POST',
         body : datos
     })

@@ -1,6 +1,6 @@
 var xhttp = new XMLHttpRequest();
 
-xhttp.open("GET", "http://liftup.pythonanywhere.com/cliente/?format=json", true);
+xhttp.open("GET", "https://liftup.pythonanywhere.com/cliente/?format=json", true);
 xhttp.send();
 
 xhttp.onload = function(){
