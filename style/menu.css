@@ -1,116 +1,84 @@
-header{
-    width: 100%;
-    background: brown;    
-    height: 50px;
-    margin: 0;
-    position: fixed;
-    top:0;
-    left:0;
-    font-family: calibri;
-    z-index: 100;
-}
-
-h1{
-    float: left;
-    margin: 0;
-    padding: 3px;
-    color: white;
-    font-family: calibri;
-    z-index: 2;
-    transform: translateY(-18px);
-}
-
-header h1 a{
-    text-decoration: none;
-    color: white;
-    font-family: calibri;
-}
-
-header h1 a:hover{
-    text-decoration: none;    
-    color: white;
-}
-
-#btn-menu{
+/* Barra Menu CheckBox */
+#menu-bar
+{
     display: none;
 }
 
-header label{
+/* Label que esta dentro del header donde esta el icono 3 barras del menu*/
+
+header label
+{
+    float: right;
+    font-size: 35px;
+    margin: 15px 25px;
+    /* Cuando se mueve el puntero al menu aparecera una manito*/
+    cursor: pointer;
+}
+
+/* Menu desplegable */
+.menu
+{
     position: absolute;
-    display: none;
-    width: 50px;
-    height: 50px; 
-    padding: 5px;
-    padding-left: 12px;
-    font-size: 28px;
-    color: white;
-    font-family: calibri;  
-}
-
-header label:hover{
-    cursor: pointer;
-    background: rgb(247, 108, 108);
-}
-
-.menu{
+    /* Ajustamos para comience cuando termine el Header*/
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #44444B;
+    opacity: 0.9;
     transition: all 0.5s;
-    
+    transform: translateX(-100%);
 }
 
-.menu ul{
-    margin: 0;
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: flex-end;
-    
-}
-
-.menu li a{
+/* Contenido del Menu */
+.menu a
+{
     display: block;
-    padding: 15px 20px;
+    color: #fff;
+    height: 60px;
     text-decoration: none;
-    color: white;
+    padding: 15px;
+    border-bottom: 1px solid;
 }
 
-.menu li:hover{
-    cursor: pointer;
-    background:  rgb(247, 108, 108);;
+/* Cuando pase el puntero del mouse por el contenido del menu*/
+.menu a:hover
+{
+    background: rgba(153, 178, 236,0.2);
 }
 
-@media (max-width: 768px){
+/* Cuando se selecciona el Menu (checkbox)*/
+#menu-bar:checked ~ .menu
+{
+    transform: translateX(0%);
+}
 
-    h1{
-        float: right;
-        padding: 2px;
-        padding-right: 10px;
-    }
-
-    header label{
-        display: block;
-    }
-
+/* RESPONSIVE - RESPONSIVE - RESPONSIVE - RESPONSIVE - */
+/*Minimo 1024px*/
+@media (min-width:1024px){
+    
+    /* Menu desplegable */
     .menu{
-        position: absolute;
-        background: brown;
-        width: 100%;
-        margin-right: -100%;
-        transform: translateX(-100%) translateY(50px);
-        
+        position: static;
+        width: auto;
+        height: auto;
+        transform: translateX(0%);
+        float: right;
+        display: flex;
     }
-
-    .menu ul{
-        flex-direction: column;
+    
+    /* Contenido del Menu */
+    .menu a
+    {
+        border: none;
+        /*Ajustamos la altura de los enlaces a escritorio*/
+        height: 80px;
+        padding: 30px;
     }
-
-    .menu li{
-        border-top: 1px solid white;
+    
+    /* Label que esta dentro del header donde esta el icono 3 barras del menu*/
+    header label
+    {
+        display: none;
     }
-
-    #btn-menu:checked ~ .menu{
-        transform: translateX(0%) translateY(50px);
-
-    }
-
-  
 }

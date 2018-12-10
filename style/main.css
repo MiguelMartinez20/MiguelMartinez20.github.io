@@ -1,77 +1,132 @@
-body, html {
-    font-family: calibri;
+/*Estilos basicos a toda la pagina*/
+*
+{
     margin: 0;
+    padding: 0;
+    /*Encajamos todo adentro en caso de padding y margin*/
     box-sizing: border-box;
-    background: bisque;
 }
 
-main{
-    background: bisque;
-    margin: 0;
-    min-width: 235px;
+/* Cuerpo de la pagina*/
+body
+{
+    font-family: 'Open Sans', sans-serif;
 }
 
-#Slogan .contenedor{
+/* HEADER de la pagina donde esta el menu, titulo y logo de la empresa*/
+
+header
+{
+    width: 100%;
+    height: 80px;
+    background: #44444B;
+    color: #fff;
+    
+    /*Dejamos fijo el menu en Responsive*/
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    /* Tapamos con el Header lo que se le cruza... */
+    z-index: 100;
+}
+
+/* TODOS los Contenedores */
+.contenedor
+{
+    width: 98%;
+    margin: auto;
+    
+}
+
+/* Titulo de la pagina*/
+h1
+{
+    text-decoration: none;
+    float: left;
+    margin: 18px;
+    color: #fff;
+}
+
+/* Contenedor del Header*/
+header .contenedor
+{
+    display: table;
+}
+
+/* TODAS las section de la pagina*/
+section
+{
+    width: 100%;
+    /*margin-bottom: 25px;*/
+}
+
+/* Footer de la pagina*/
+footer
+{
+    background: #44444B;
+}
+
+/* Contenedor del Footer*/
+footer .contenedor
+{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 55px;
     justify-content: center;
-    text-align: center;
 }
 
-#Slogan article{
+/* Parrafo del Footer*/
+.copy
+{
+    font-size: 20px;
+    color: #fff;
+}
+
+/* Redes sociales del Footer*/
+.redesociales
+{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+/* Imagenes de las redes sociales del footer*/
+.redesociales img
+{
+    width: 30px;
+    height: 30px;
     margin: 15px;
-    background: bisque;
-    width: 100%;
-    max-width: 800px;
-    justify-content: center
 }
 
-#Slogan h2{
-    font-size: 35px;
-    text-align: center;
+/* RESPONSIVE - RESPONSIVE - RESPONSIVE - RESPONSIVE - */
+/*Minimo 720px*/
+@media (min-width:720px){
+    
+    /* Redes sociales del Footer*/
+    .redesociales
+    {
+        width: auto;
+    }
+    
+    /* Contenedor del Footer*/
+    footer .contenedor
+    {
+        justify-content: space-between;
+    }
+    
 }
 
-#Slogan article p{
-    text-align: justify;
-    font-size: 18px;   
-    margin: 30px 0px 0px 0px;
-}
-
-
-#Slogan article img{
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    max-width: 800px;
-    border-radius: 10px;
-}
-
-#Slogan article button{
-    font-size: 30px;
-    height: 50px;
-    width: 400px;
-} 
-
-#Slogan article button a{
-    display: block;
-    width: 100%;
-    color: brown;
-} 
-
-#Slogan article button:hover{
-    background: brown;
-    color: white;
-}
-
-#Slogan article button a:hover{
-    text-decoration: none;
-    color: white;
-}
-
-@media (max-width: 768px){
-
-    #Slogan article button{
-        width: 100%;
-    } 
+/* RESPONSIVE - RESPONSIVE - RESPONSIVE - RESPONSIVE - */
+/*Minimo 1024px*/
+@media (min-width:1024px){
+    
+    /* TODOS los Contenedores */
+    .contenedor
+    {
+        width: 1000px;
+        
+    }
+    
+    
 }

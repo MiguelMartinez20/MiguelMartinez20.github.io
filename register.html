@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Lift Up</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="icon" href="images/favicon.png">
+        <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet" href="style/menu.css">
+        <link rel="stylesheet" href="style/banner.css">
+        <link rel="stylesheet" href="style/register.css">
+    </head>
+    <body>
+        <header>
+            <div class="contenedor">
+                <h1>&#128978; Lift Up</h1>
+                <input type="checkbox" id="menu-bar">
+                <label for="menu-bar"><b>&#9776;</b></label>
+                <nav class="menu">
+                    <a href="order.html">Ordenes de Trabajo</a>
+                    <a href="register.html">Nueva Orden</a>
+                    <a href="service.html">Clientes</a>
+                    <a href="index.html">Cerrar Sesion</a>         
+                </nav>
+            </div>
+        </header>
+        
+        <main>
+            <section id="banner">
+                <img src="images/banner.jpg">
+            </section>
+  
+            <section id="RegistroFormulario">
+            <h2>REGISTRANDO ORDEN DE TRABAJO</h2>
+                <div class="formulario">
+                        <form id="formulario_1">
+                                
+                            <p><label for="id_cliente">Nombre Cliente:</label> 
+                            <input type="text" name="cliente" required="" id="id_cliente"
+                                   maxlength="40" minlength="3" placeholder="Ingrese Nombre" onkeyup="NoNumbers()"  required></p>
+                    
+                            <p><label for="id_fecha">Fecha:</label> 
+                            <input type="date" name="fecha" required="" id="id_fecha"></p>
+                    
+                            <p><label for="id_horaini">Hora Inicio:</label>
+                            <input type="datetime-local" name="horaini" required="" id="id_horaini"></p>
+                    
+                            <p><label for="id_horater">Hora Termino:</label>
+                            <input type="datetime-local" name="horater" required="" id="id_horaterm" onfocusout="Fecha()"></p>
+                    
+                            <p><label for="id_nascensor">N° Ascensor:</label>
+                            <input type="text" name="numasc" required="" id="id_nascensor"
+                                   placeholder="Ingrese Numero del ascensor" onkeyup="NoLetters()"></p>
+                    
+                            <p><label for="id_modelascensor">Modelo Ascensor:</label>
+                            <input type="text" name="modeloasc" required="" id="id_modelascensor"
+                                   placeholder="Ingrese Modelo de Ascensor"></p>
+                            
+                            <p><label for="id_fallas">Fallas:</label>
+                            <input type="text" name="fallas" required="" id="id_fallas"
+                                   placeholder="Ingrese las Fallas"></p>
+                            
+                            <p><label for="id_repara">Reparacion:</label>
+                            <input type="text" name="reparacion" required="" id="id_repara"
+                                   placeholder="Ingrese las reparaciones"></p>
+                            
+                            <p><label for="id_piezas">Piezas:</label>
+                            <input type="text" name="piezas" required="" id="id_piezas"
+                                   placeholder="Ingrese las piezas"></p>
+                            
+                            <p><label for="id_tecnico">Tecnico:</label>
+                            <input type="text" name="tecnico" required="" id="id_tecnico"
+                                   maxlength="40" minlength="3" placeholder="Ingrese Nombre del Tecnico" onkeyup="NoNumbers()"  required></p>
+                                
+                            <button class="btn btn-primary" type="submit">Registrar Orden</button>
+                        </form>
+                    </div>
+            </section>
+  
+        </main>
+        
+        <footer>
+            <div class="contenedor">
+                <p class="copy">Lift Up &copy; 2018</p>
+                <div class="redesociales">
+                    <img src="images/facebook.png">
+                    <img src="images/twitter.png">
+                    <img src="images/whatsup.png">
+                </div>
+            </div>
+        
+        </footer>
+        <script src="js/postOrden.js"></script>
+        <script src="js/validar.js"></script> 
+    </body>
+</html>

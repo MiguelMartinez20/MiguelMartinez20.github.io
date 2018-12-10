@@ -1,25 +1,25 @@
 {
-    "name": "Mis Perris",
-    "short_name": "Mis Perris",
+    "name": "LiftUp",
+    "short_name": "LiftUp",
     "icons": [{
-      "src": "img/icono-125x125.png",
+      "src": "images/icon125x125.png",
         "sizes": "125x125",
         "type": "image/png"
       },{
-        "src": "img/icono-152x152.png",
+        "src": "images/icon152x152.png",
           "sizes": "152x152",
           "type": "image/png"
       },{
-        "src": "img/icono-192x192.png",
+        "src": "images/icon192x192.png",
           "sizes": "192x192",
           "type": "image/png"
       },{
-      "src": "img/icono.png",
+      "src": "images/icono225x225.png",
         "sizes": "225x225",
         "type": "image/png"
       }],
     "start_url": "/index.html",
     "display": "standalone",
-    "background_color": "#FFE4C6",
-    "theme_color": "#FFE4C6"
+    "background_color": "#44444B",
+    "theme_color": "#44444B"
   }

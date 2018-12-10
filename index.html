@@ -1,246 +1,185 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <title>Mis Perris</title>
-    <link rel="manifest" href="/manifest.json">
-    <link rel="stylesheet" href="style/menu.css">
-    <link rel="stylesheet" href="style/cuadro.css">
-    <link rel="stylesheet" href="style/galeria.css">
-    <link rel="stylesheet" href="style/carrusel.css">
-    <link rel="stylesheet" href="style/footer.css">
-    <link rel="icon" href="img/icono.png">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style/main.css">
-
-</head>
-<body>
-    <header>
-        <div role="banner" class="contenedor">
-            <h1><a href="index.html">&#128054; Mis Perris</a> </h1>
-            <input type="checkbox" id="btn-menu">
-            <label for="btn-menu"><b>&#9776;</b></label>
-
-            <nav class="menu">
-                <ul role=menu>
-                    <li role="menuitem"><b><a href="index.html">Inicio</a></b></li>
-                    <li role="menuitem"><b><a href="gallery.html">Adopciones</a></b></li>
-                    <li role="menuitem"><b><a href="#">Donaciones</a> </b></li>
-                    <li role="menuitem"><b><a href="form.html">Registrarme</a> </b></li>
-                    <li role="menuitem"><b><a href="Sesion.html">Iniciar Sesión</a> </b></li>
-                </ul>
-            </nav>
-        </div>
-
-    </header>
-    <main>
-        <section id="Slogan">
+    <head>
+        <title>Lift Up</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="icon" href="images/favicon.png">
+        <link rel="manifest" href="/manifest.json">
+        <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet" href="style/menu.css">
+        <link rel="stylesheet" href="style/banner.css">
+        <link rel="stylesheet" href="style/grid.css">
+    </head>
+    <body>
+        <header>
             <div class="contenedor">
-                        <article>
-                            <div role="complementary" class="container">
-                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                                  <!-- Indicators -->
-                                  <ol class="carousel-indicators">
-                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                                    <li data-target="#myCarousel" data-slide-to="3"></li>
-                                  </ol>
-
-                                  <!-- Wrapper for slides -->
-                                  <div class="carousel-inner">
-                                    <div class="item active">
-                                      <img src="img/carrusel1.jpg" alt="Familia carrusel 1" style="width:100%;">
-                                    </div>
-
-                                    <div class="item">
-                                      <img src="img/carrusel2.jpg" alt="Familia carrusel 2" style="width:100%;">
-                                    </div>
-
-                                    <div class="item">
-                                      <img src="img/carrusel3.jpg" alt="Familia carrusel 3" style="width:100%;">
-                                    </div>
-
-                                    <div class="item">
-                                        <img src="img/carrusel4.jpg" alt="Familia carrusel 4" style="width:100%;">
-                                      </div>
-                                  </div>
-
-                                  <!-- Left and right controls -->
-                                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                                    <span class="glyphicon glyphicon-chevron-left"></span>
-                                    <span class="sr-only">Previous</span>
-                                  </a>
-                                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                                    <span class="glyphicon glyphicon-chevron-right"></span>
-                                    <span class="sr-only">Next</span>
-                                  </a>
-                                </div>
-                              </div>
-                        </article>
-                        <article>
-                            <h2>Ellos Buscan y Necesitan un Hogar</h2>
-                            <h2>¡Tú puedes dárselos!</h2>
-                            <p>
-                                <b>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat mauris eu erat sagittis, eget cursus
-                                turpis tristique. Mauris tincidunt est non tristique sodales. Proin congue est eget ante rhoncus, sit amet tempor
-                                ex luctus. Duis mollis, dui ac fringilla fermentum, ipsum nibh ullamcorper erat, at congue lectus metus vel felis.
-                                Maecenas venenatis orci non ante hendrerit fringilla. Nam eu pulvinar dui. Phasellus quis aliquet nulla, sit amet lacinia tortor.
-                                Nulla nec turpis volutpat, cursus leo id, congue justo. Donec augue leo, egestas semper imperdiet eget, congue accumsan libero.
-                                </b>
-                            </p>
-                        </article>
+                <a href="index.html"><h1>&#128978; Lift Up</h1></a>
+                <input type="checkbox" id="menu-bar">
+                <label for="menu-bar"><b>&#9776;</b></label>
+                <nav class="menu">
+                    <a href="index.html">Inicio</a>
+                    <a href="login.html">Login Empresarial</a>
+                </nav>
             </div>
-        </section>
-
-
-            <section id="blog">
-                <div role="navigation" class="contenedor">
-                        <article class="item1">
-                            <a href="gallery.html"><h2>¡Quiero Adoptar!</h2></a>
-                            <a href="gallery.html"><img src="img/perro-1.jpg" alt="perro1"></a>
-                            <p>Genial, Encuentra a tu nuevo compañero de vida AQUÍ</p>
-                        </article>
-                        <article class="item2">
-                            <a href="form.html"><h2>¡Registrate Ahora!</h2></a>
-                            <a href="form.html"><img src="img/adopcion-1.png" alt="perro3"></a>
-                            <p>Unete a nuestra comunidad de adoptantes, Registra tu cuenta para iniciar. ¿Ya tienes cuenta pero OlVIDASTE TU CONTRASEÑA? No te preocupes recuperala Aqui</p>
-                        </article>
-                        <article class="item3">
-                            <a href="#"><h2>Quiero Contribuir</h2></a>
-                            <a href="#"><img src="img/perro-9.jpg" alt="perro4"></a>
-                            <p> Ayúdanos a seguir nuestra noble cruzada, aceptamos donaciones a través de PayPal, no lo dudes más y Contribuye</p>
-                        </article>
-                        <article class="item4">
-                            <a href="#galeria"><h2>Galeria de Fotos</h2></a>
-                            <a href="#galeria"><img src="img/perro-17.jpg" alt="perro17"></a>
-                            <p>Hecha un vistazo a los amiguitos que han pasado por nuestra organizacion</p>
-                        </article>
-                </div>
+        </header>
+        
+        <main>
+            <section id="banner">
+                <img src="images/banner.jpg">
             </section>
-
-            <section id="galeria">
-                <h3><b>Galería de Fotos</b> </h3>
-                <div role="figure" class="contenedor">
-                    <article>
-                        <img src="img/perro-12.jpg" alt="perro12">
-                        <h4>Cortachurro</h4>
-                        <p><b>Raza:</b> Akita</p>
-                        <p><b>Tamaño:</b> Mediano</p>
-                        <p><b>Sexo:</b> Macho</p>
-                        <p><b>Personalidad:</b> Muy tranquilo, gusta de tomar siestas a menudo, no necesita mucho ejercicio</p>
-                    </article>
-                    <article>
-                        <img src="img/perro-5.jpg" alt="perro5">
-                        <h4>Firulais</h4>
-                        <p><b>Raza:</b> Akita</p>
-                        <p><b>Tamaño:</b> Mediano</p>
-                        <p><b>Sexo:</b> Macho</p>
-                        <p><b>Personalidad:</b> Muy juguetón, gusta de los lugares abiertos, necesita mucho ejercicio. </p>
-                    </article>
-                    <article>
-                        <img src="img/perro-6.jpg" alt="perro6">
-                        <h4>Repetido</h4>
-                        <p><b>Raza:</b> Mestizo</p>
-                        <p><b>Tamaño:</b> Grande</p>
-                        <p><b>Sexo:</b> Macho</p>
-                        <p><b>Personalidad:</b> Fiel compañero de viajes, le gusta mucho pasear, es muy activo (Perro de la derecha).</p>
-                    </article>
-                    <article>
-                        <img src="img/perro-7.jpg" alt="perro7">
-                        <h4>Slinky</h4>
-                        <p><b>Raza:</b> Dachshund</p>
-                        <p><b>Tamaño:</b> Mediano</p>
-                        <p><b>Sexo:</b> Macho</p>
-                        <p><b>Personalidad:</b> Excelente perro de compañia, no necesita mucho espacio, muy apegado a la gente</p>
-                    </article>
-                    <article>
-                        <img src="img/perro-8.jpg" alt="perro8">
-                        <h4>Playita</h4>
-                        <p><b>Raza:</b> Cocker</p>
-                        <p><b>Tamaño:</b> Pequeño</p>
-                        <p><b>Sexo:</b> Hembra</p>
-                        <p><b>Personalidad:</b> Al ser cachorro necesita mucho cariño y atención, muy dormilona</p>
-                    </article>
-                    <article>
-                        <img src="img/perro-9.jpg" alt="perro9">
-                        <h4>Cholo</h4>
-                        <p><b>Raza:</b> Mestizo</p>
-                        <p><b>Tamaño:</b> Pequeño</p>
-                        <p><b>Sexo:</b> Macho</p>
-                        <p><b>Personalidad:</b> Un cachorro muy energético que gusta de correr y ensuciarse.</p>
-                    </article>
-                    <article>
-                        <img src="img/perro-10.jpg" alt="perro10">
-                        <h4>Yo No Fui</h4>
-                        <p><b>Raza:</b> Labrador</p>
-                        <p><b>Tamaño:</b> Grande</p>
-                        <p><b>Sexo:</b> Macho</p>
-                        <p><b>Personalidad:</b> Muy fiel a su dueño, una raza caracterizada por llevarse bien con los niños</p>
-                    </article>
-                    <article>
-                        <img src="img/perro-11.jpg" alt="perro11">
-                        <h4>Tepo Tepo</h4>
-                        <p><b>Raza:</b> Akita</p>
-                        <p><b>Tamaño:</b> Mediano</p>
-                        <p><b>Sexo:</b> Macho</p>
-                        <p><b>Personalidad:</b> Muy tímido con la gente, necesita tiempo para adaptarse a nuevos lugares</p>
-                    </article>
-                    <article>
-                        <img src="img/perro-13.jpg" alt="perro13">
-                        <h4>Coliforme</h4>
-                        <p><b>Raza:</b> Yorkshire</p>
-                        <p><b>Tamaño:</b> Pequeño</p>
-                        <p><b>Sexo:</b> Hembra</p>
-                        <p><b>Personalidad:</b> Muy apegada a sus dueños, puede sentir ansiedad si se le deja sola por mucho tiempo</p>
-                    </article>
-                    <article>
-                        <img src="img/perro-14.jpg" alt="perro14">
-                        <h4>Fierro Malo</h4>
-                        <p><b>Raza:</b> Beagle</p>
-                        <p><b>Tamaño:</b> Mediano</p>
-                        <p><b>Sexo:</b> Macho</p>
-                        <p><b>Personalidad:</b> Perro familiar que gusta de jugar con los niños. Perrito Hush Puppies</p>
-                    </article>
-                    <article>
-                        <img src="img/perro-15.jpg" alt="perro15">
-                        <h4>Neumatex</h4>
-                        <p><b>Raza:</b> Pug</p>
-                        <p><b>Tamaño:</b> Pequeño</p>
-                        <p><b>Sexo:</b> Macho</p>
-                        <p><b>Personalidad:</b> Perro muy tranquilo ideal para espacios reducidos, necesita muchos cuidados.</p>
-                    </article>
-                    <article>
-                        <img src="img/perro-16.jpg" alt="perro16">
-                        <h4>Etcétera</h4>
-                        <p><b>Raza:</b> Mestizo</p>
-                        <p><b>Tamaño:</b> Grande</p>
-                        <p><b>Sexo:</b> Macho</p>
-                        <p><b>Personalidad:</b>: Muy activo, gusta de pasear y jugar con otros perros</p>
-                    </article>
+  
+            <div class="fila dos_columnas">
+                <div class="columna">
+                    <h2 class="title">SERVICIO TECNICO</h2>
+                    <h4 class="subtitle">de Ascensores</h4><br>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p><br>
                 </div>
-            </section>
-    </main>
+                <div class="columna">
+                    <h2 class="title">CONTACTANOS!</h2><br>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p><br>
+                </div>
+            </div>
 
-    <footer>
-        <h3 id="footer_up">Contacto</h3>
-        <a href="tel:+56956784512">+569 5678 4512</a>
-        <h3>Correo Electronico</h3>
-        <a href="mailto:empresamisperris@gmail.com">empresamisperris@gmail.com</a>
-        <h3>Redes Sociales</h3>
-        <a href="https://www.instagram.com/?hl=es-la">Mis_Perris_Oficial &#128247; Instagram</a>
-        <br>
-        <a href="https://www.facebook.com/" id="footer_down">Fanpage Facebook &#128077;</a>
-        <p style="color: white; font-size: 20px; padding-left: 10px; ">Todos los derechos Reservados &#169;</p>
-    </footer>
-
-    <script src="js/app.js"></script>
-
-</body>
+            <div class="fila tres_columnas">
+                <div class="columna">
+                    <h2 class="title">SERVICIO</h2><br>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                </div>
+                <div class="columna">
+                    <h2 class="title">OPINION</h2><br>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                </div>
+                <div class="columna">
+                    <h2 class="title">LIDERAZGO</h2><br>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                </div>
+            </div>
+  
+            <div class="fila cuatro_columnas">
+                <div class="columna">
+                    <img class="imgcolumnas4" src="images/imagen1.jpg">
+                    <h2 class="title">INSTALACION</h2>
+                </div>
+                <div class="columna">
+                    <img class="imgcolumnas4" src="images/imagen2.jpg">
+                    <h2 class="title">MANTENCION</h2>
+                </div>
+                <div class="columna">
+                    <img class="imgcolumnas4" src="images/imagen3.jpg">
+                    <h2 class="title">MODERNIZACION</h2>
+                </div>
+                <div class="columna">
+                    <img class="imgcolumnas4" src="images/imagen4.jpg">
+                    <h2 class="title">OPTIMIZACION</h2>
+                </div>
+            </div>
+  
+            <div class="fila seis_columnas">
+                <div class="columna">
+                    <img class="imgcolumnas6" src="images/columna1.png"><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="columna">
+                    <img class="imgcolumnas6" src="images/columna2.png"><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="columna">
+                    <img class="imgcolumnas6" src="images/columna3.png"><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="columna">
+                    <img class="imgcolumnas6" src="images/columna4.png"><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="columna">
+                    <img class="imgcolumnas6" src="images/columna5.png"><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="columna">
+                    <img class="imgcolumnas6" src="images/columna6.png"><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+  
+            <div class="fila doce_columnas">
+                <div class="columna">
+                    <h2 class="title">Altas Prestaciones</h2><br>
+                    <h3 class="iconos">&#128161;</h3><br>
+                    <p>Contamos con las tecnologías más avanzadas para ofrecer una de las calidades de servicio más elevadas.</p>
+                </div>
+                <div class="columna">
+                    <h2 class="title">Mision</h2><br>
+                    <h3 class="iconos">&#127970;</h3><br>
+                    <p>Nuestra misión es brindar una atención de excelencia.</p>
+                </div>
+                <div class="columna">
+                    <h2 class="title">Servicio</h2><br>
+                    <h3 class="iconos">&#8961;</h3><br>
+                    <p>Servicio cercano con el cliente y la comunidad.</p>
+                </div>
+                <div class="columna">
+                    <h2 class="title">Reportes</h2><br>
+                    <h3 class="iconos">&#10003;&#10003;</h3><br>
+                    <p>Informamos sobre el estado de sus elevadores.</p>
+                </div>
+                <div class="columna">
+                    <h2 class="title">Mas de 2000 Clientes</h2><br>
+                    <h3 class="iconos">&#9977;</h3><br>
+                    <p>Poseemos una amplia cartera de clientes, que van desde pymes hasta grandes instituciones.</p>
+                </div>
+                <div class="columna">
+                    <h2 class="title">Soporte Premium FREE</h2><br>
+                    <h3 class="iconos">&#128268;    </h3><br>
+                    <p>Contamos con soporte para todo tipo de solicitudes las 24 horas del día, 7 días a la semana.</p>
+                </div>
+                <div class="columna">
+                    <h2 class="title">Innovación</h2><br>
+                    <h3 class="iconos">&#128161;</h3><br>
+                    <p>Somos una empresa innovadora en el campo.</p>
+                </div>
+                <div class="columna">
+                    <h2 class="title">Posventa</h2><br>
+                    <h3 class="iconos">&#9921;</h3><br>
+                    <p>Revisión de especificaciones de contrato.</p>
+                </div>
+                <div class="columna">
+                    <h2 class="title">Peritajes</h2><br>
+                    <h3 class="iconos">&#128110;</h3><br>
+                    <p>Evaluación del alcance de los daños.</p>
+                </div>
+                <div class="columna">
+                    <h2 class="title">Auditorias</h2><br>
+                    <h3 class="iconos">&#128658;</h3><br>
+                    <p>Inspeccionar dispositivos de seguridad para los usuarios y la integridad de los equipos.</p>
+                </div>
+                <div class="columna">
+                    <h2 class="title">Asesorías</h2><br>
+                    <h3 class="iconos">&#127963;</h3><br>
+                    <p>Estudio de tráfico, planos de planta, corte y elevación.</p>
+                </div>
+                <div class="columna">
+                    <h2 class="title">Certificación</h2><br>
+                    <h3 class="iconos">&#9853;</h3><br>
+                    <p>100%</p>
+                </div>
+            </div>
+  
+        </main>
+        
+        <footer>
+            <div class="contenedor">
+                <p class="copy">Lift Up &copy; 2018</p>
+                <div class="redesociales">
+                    <img src="images/facebook.png">
+                    <img src="images/twitter.png">
+                    <img src="images/whatsup.png">
+                </div>
+            </div>
+        
+        </footer>
+        <script src="js/app.js"></script>
+    </body>
 </html>

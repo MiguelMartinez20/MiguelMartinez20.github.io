@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Lift Up</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="icon" href="images/favicon.png">
+        <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet" href="style/menu.css">
+        <link rel="stylesheet" href="style/banner.css">
+        <link rel="stylesheet" href="style/login.css">
+    </head>
+    <body>
+        <header>
+            <div class="contenedor">
+                <a href="index.html"><h1>&#128978; Lift Up</h1></a>
+                <input type="checkbox" id="menu-bar">
+                <label for="menu-bar"><b>&#9776;</b></label>
+                <nav class="menu">
+                    <a href="index.html">Inicio</a>
+                    <a href="login.html">Ingresar</a>
+                </nav>
+            </div>
+        </header>
+        
+        <main>
+            <section id="banner">
+                <img src="images/banner.jpg">
+            </section>
+  
+            <section id="LoginFormulario">
+                    <h2>INGRESA CON TU CUENTA</h2>
+                    <div class="login">
+                        <form>
+                            <p><label for="id_email">Correo:</label> 
+                                <input type="text" id="id_email" maxlength="50" onfocusout="ValidarCorreo()" name="email" required id="id_email" placeholder="Ingrese su Correo">
+                            </p>
+                            
+                            <span role="alert" id="validacionCorreo"></span>
+    
+                            <p><label for="id_password">Password:</label> 
+                                <input type="password" name="password" required id="id_password" placeholder="Ingrese su Contraseña">
+                            </p>
+
+                            <span id="warming"></span>
+
+                            <h4>¿Quieres Recuperar tu Contraseña? Click <a href='#'>Aqui</a></h4>
+
+                            <button class="btnlogin" type="button" onclick="login()">Iniciar Sesion</button>       
+                        </form>
+                    </div>
+            </section>
+  
+        </main>
+        
+        <footer>
+            <div class="contenedor">
+                <p class="copy">Lift Up &copy; 2018</p>
+                <div class="redesociales">
+                    <img src="images/facebook.png">
+                    <img src="images/twitter.png">
+                    <img src="images/whatsup.png">
+                </div>
+            </div>
+        
+        </footer>
+
+        <script src="js/login.js"></script>
+        <script src="js/validar.js"></script>
+    </body>
+</html>
