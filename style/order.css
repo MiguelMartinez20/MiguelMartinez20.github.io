@@ -7,6 +7,14 @@
     padding: 20px;
 }
 
+/* EL Contenedor donde estan los articulos*/
+.OrdenesContenedor
+{
+    width: 98%;
+    margin: auto;
+}
+
+
 /* Contenedor donde estan los articulos*/
 #InfoOrder .OrdenesContenedor
 {
@@ -16,11 +24,18 @@
 
 }
 
+/* Los articulos donde estan las ordenes de trabajo*/
 #InfoOrder .OrdenesContenedor article
 {
-    padding: 20px;
+    margin: 20px;
     background: #A6BCA9;
     left: 0;
+}
+
+/*Titulo de la orden de trabajo*/
+#InfoOrder .OrdenesContenedor article h3
+{
+    padding: 15px;
 }
 
 
