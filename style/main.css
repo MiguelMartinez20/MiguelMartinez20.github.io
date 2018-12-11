@@ -124,7 +124,8 @@ footer .contenedor
     /* TODOS los Contenedores */
     .contenedor
     {
-        width: 1300px;
+        /*width: 1300px;*/
+        width: 96%;
         
     }
     
