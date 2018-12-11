@@ -13,13 +13,12 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
 
-/* articulos donde estan las ordenes de trabajo*/
-.OrdenesContenedor article
-{
     margin: 15px;
     border-radius: 20%;
     border: 5px solid #333;
+
 }
+
+
 
