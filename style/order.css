@@ -1,5 +1,5 @@
 /*Seccion Listado de Ordenes de Trabajos*/
-#InfoOrder
+#InfoOrder 
 {
     background: #fff;
     color: #000;
@@ -8,13 +8,11 @@
 }
 
 /* Contenedor donde estan los articulos*/
-.OrdenesContenedor
+#InfoOrder .OrdenesContenedor
 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
-    border: 5px solid #333;
 
 }
 
