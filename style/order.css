@@ -19,5 +19,6 @@
 .OrdenesContenedor article
 {
     margin: 15px;
+    border-color: #333 2px solid;
 }
 
