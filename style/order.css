@@ -6,3 +6,18 @@
     text-align: center;
     padding: 20px;
 }
+
+/* Contenedor donde estan los articulos*/
+.OrdenesContenedor
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* articulos donde estan las ordenes de trabajo*/
+.OrdenesContenedor article
+{
+    margin: 15px;
+}
+
