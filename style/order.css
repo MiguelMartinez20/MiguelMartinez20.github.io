@@ -27,6 +27,7 @@
 /* Los articulos donde estan las ordenes de trabajo*/
 #InfoOrder .OrdenesContenedor article
 {
+    width: 100%;
     margin: 20px;
     background: #A6BCA9;
     left: 0;
