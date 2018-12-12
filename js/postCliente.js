@@ -15,7 +15,7 @@ formulario.addEventListener('submit', function(e){
             Push.create("Nuevo Cliente",{
                 body: "Se ha uncluido a un nuevo cliente, ¡Inicia sesión para revisar sus datos!",
                 icon: "images/icon192x192.png",
-                timeout: 4000,
+                timeout: 8000,
                 onClick: function(){                  
                     window.location.replace("https://miguelmartinez20.github.io/login.html");
                     this.close();

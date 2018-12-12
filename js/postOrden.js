@@ -17,7 +17,7 @@ formulario.addEventListener('submit', function(e){
             Push.create("Nueva Orden de Trabajo",{
                 body: "Se creo una nueva orden, ¡Inicia sesión para revisarla!",
                 icon: "images/icon192x192.png",
-                timeout: 4000,
+                timeout: 8000,
                 onClick: function(){                  
                     window.location.replace("https://miguelmartinez20.github.io/login.html");
                     this.close();
