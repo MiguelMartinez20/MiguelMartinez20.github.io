@@ -14,5 +14,15 @@ formulario.addEventListener('submit', function(e){
         .then(res => res.json())
         .then(data => {
             console.log(data)
+            Push.create("Nueva Orden de Trabajo",{
+                body: "Se creo una nueva orden, ¡Inicia sesión para revisarla!",
+                icon: "images/icon152x152.png",
+                timeout: 4000,
+                onClick: function(){                  
+                    window.location("https://miguelmartinez20.github.io/login.html");
+                    this.close();
+                }
+            });
+
         })
 })
