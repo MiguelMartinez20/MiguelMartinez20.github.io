@@ -7,3 +7,43 @@
     padding: 20px;
 }
 
+
+/* EL Contenedor donde estan los articulos*/
+.ClientesContenedor
+{
+    width: 98%;
+    margin: auto;
+}
+
+
+/* Contenedor donde estan los articulos*/
+#Informacion .ClientesContenedor
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+/* Los articulos donde estan los clientes*/
+#Informacion .ClientesContenedor article
+{
+    width: 100%;
+    max-width: 380px;
+    margin: 10px;
+    padding: 15px;
+    background: #003333;
+    left: 0;
+    color: #fff;
+
+    /*Contorno de los articulos*/
+    border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+}
+
+/*Nombre de los clientes*/
+#Informacion .ClientesContenedor article h3
+{
+    padding: 15px;
+}
+
