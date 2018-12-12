@@ -2,7 +2,7 @@
 function ValidarCorreo() {
     var txtCorreo = document.getElementById("id_correo")
     var validacionEmail = document.getElementById("validacionEmail")
-        if(txtCorreo.value.includes("@") && ((txtEmail.value.includes(".com")) || (txtEmail.value.includes(".cl")) || (txtEmail.value.includes(".org")) || (txtEmail.value.includes(".net")))){
+        if(txtCorreo.value.includes("@") && ((txtCorreo.value.includes(".com")) || (txtCorreo.value.includes(".cl")) || (txtCorreo.value.includes(".org")) || (txtCorreo.value.includes(".net")))){
             validacionEmail.innerHTML = ""
         }
         else
