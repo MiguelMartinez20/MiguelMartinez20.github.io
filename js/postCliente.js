@@ -1,21 +1,19 @@
-var formulario = document.getElementById("formulario_1")
+var formulario = document.getElementById("formulario_2")
 
 formulario.addEventListener('submit', function(e){
     e.preventDefault();
 
     var datos = new FormData(formulario);
 
-    console.log(datos.get('horainicio'))
-
-    fetch('https://liftup.pythonanywhere.com/forma/', {
+    fetch('https://liftup.pythonanywhere.com/cliente/', {
         method : 'POST',
         body : datos
     })
         .then(res => res.json())
         .then(data => {
             console.log(data)
-            Push.create("Nueva Orden de Trabajo",{
-                body: "Se creo una nueva orden, ¡Inicia sesión para revisarla!",
+            Push.create("Nuevo Cliente",{
+                body: "Se ha uncluido a un nuevo cliente, ¡Inicia sesión para revisar sus datos!",
                 icon: "images/icon192x192.png",
                 timeout: 4000,
                 onClick: function(){                  
@@ -23,6 +21,5 @@ formulario.addEventListener('submit', function(e){
                     this.close();
                 }
             });
-
         })
 })
