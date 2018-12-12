@@ -31,8 +31,13 @@
     max-width: 380px;
     margin: 10px;
     padding: 15px;
-    background: #A6BCA9;
+    background: #003333;
     left: 0;
+    color: #fff;
+
+    /*Contorno de los articulos*/
+    border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
 }
 
 /*Titulo de la orden de trabajo*/
