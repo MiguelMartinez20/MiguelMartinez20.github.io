@@ -19,7 +19,7 @@ formulario.addEventListener('submit', function(e){
                 icon: "images/icon152x152.png",
                 timeout: 4000,
                 onClick: function(){                  
-                    window.location= "https://miguelmartinez20.github.io/login.html";
+                    window.location.replace("https://miguelmartinez20.github.io/login.html");
                     this.close();
                 }
             });
