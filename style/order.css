@@ -7,6 +7,12 @@
     padding: 20px;
 }
 
+/*Titulo del Listado de Ordenes de Trabajos*/
+#InfoOrder h3
+{
+    font-size: 20px;
+}
+
 /* EL Contenedor donde estan los articulos*/
 .OrdenesContenedor
 {
