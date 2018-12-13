@@ -1,4 +1,3 @@
-// VALIDANDO EL CORREO
 function ValidarCorreo() {
     var txtEmail = document.getElementById("id_email")
     var validacionCorreo = document.getElementById("validacionCorreo")
@@ -11,7 +10,6 @@ function ValidarCorreo() {
         }
 }
 
-// VALIDANDO QUE NO SE INGRESEN NUMEROS
 function NoNumbers(){
     var numbers = [0,1,2,3,4,5,6,7,8,9,";","+", "-", "?", "¿", 
                     "¡", "!", ".", ",", "/", "#", "$", "%", "(", ")"]
@@ -24,7 +22,6 @@ function NoNumbers(){
     }
 }
 
-// VALIDANDO QUE NO SE INGRESEN LETRAS
 function NoLetters(){
     var letters = 
                 [   "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", 

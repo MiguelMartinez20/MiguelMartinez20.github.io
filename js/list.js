@@ -20,7 +20,7 @@ xhttp.onload = function(){
                         +'<p><b>Fecha Orden: </b>' +orden[i].fecha+'</p>'+'<p><b>Hora de Inicio: </b>' +orden[i].horaini+'</p>'
                         +'<p><b>Hora de Termino: </b>' +orden[i].horater+'</p>'+'<p><b>Número de Ascensor: </b>' +orden[i].numasc+'</p>'
                         +'<p><b>Modelo Ascensor: </b>' +orden[i].modeloasc+'</p>'+ '<p><b>Fallas: </b>' +orden[i].fallas+'</p>'
-                        +'<p><b>Reparación efectuada: </b>' +orden[i].reparacion+'</p>'+'<p><b>Piezas Cambiadas: </b>' +orden[i].piezas+'</p>'
+                        +'<p><b>Reparación: </b>' +orden[i].reparacion+'</p>'+'<p><b>Piezas: </b>' +orden[i].piezas+'</p>'
                         +'<p><b>Tecnico Encargado: </b>' +orden[i].tecnico+'</p>'+'</article>';                   
     }
 

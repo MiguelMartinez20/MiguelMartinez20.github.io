@@ -12,7 +12,6 @@ function login() {
         var div_1 = document.getElementById("warming")
 
         console.log(correo) 
-        console.log(password_1)   
 
         var response = JSON.parse(xhttp.responseText);
         var usuario = response;
@@ -30,7 +29,6 @@ function login() {
                 valida = 0
                 console.log("NO Paso")  
                 console.log(usuario[i].email)
-                console.log(usuario[i].password)     
             }            
         }
         
